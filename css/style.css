@@ -238,7 +238,12 @@ footer .content-footer {
 /* media screen */
 @media screen and (max-width: 768px) {
 :root{
-  --padding: 1.5rem
+  --mainColor: #849d05;
+  --secColor: #515610;
+  --lightColor: #f6f68d;
+  --bgColor-1: #121802;
+  --bgColor-2: #090a01;
+  --padding: 1.5rem;
 }
 html{
   font-size: 13px;
