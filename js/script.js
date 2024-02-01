@@ -1,7 +1,7 @@
 let upp = document.querySelector(".up");
 let menu = document.querySelector(".menu");
 let phone = document.querySelector("#phone-menu");
-alert("Welcome to My Michigan capstone project");
+// alert("Welcome to My Michigan capstone project");
 window.onscroll = function () {
   if (this.scrollY >= 500) {
     upp.classList.add("show");
