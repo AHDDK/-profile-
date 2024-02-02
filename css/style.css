@@ -221,17 +221,17 @@ footer .content-footer {
   margin-top: 1.5rem;
 }
 /* menu */
-.menu{
+.menu {
   display: none;
   position: relative;
   appearance: none;
   border: none;
   outline: none;
   background: none;
-  cursor:pointer;
+  cursor: pointer;
   user-select: none;
 }
-.menu span{
+.menu span {
   display: block;
   width: 33px;
   height: 4px;
@@ -244,68 +244,68 @@ footer .content-footer {
 
 /* media screen */
 @media screen and (max-width: 500px) {
-:root{
-  --mainColor: #849d05;
-  --secColor: #515610;
-  --lightColor: #f6f68d;
-  --bgColor-1: #121802;
-  --bgColor-2: #090a01;
-  --padding: 1.5rem;
-}
-html{
-  font-size: 13px;
-}
-nav ul {
-  display: none;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--secColor);
-  top: 0;
-  left: 0;
-}
-nav ul.is-active{
-  display: block;
-}
-nav ul.no-active{
-  display: none;
-}
-nav ul li{
-  display: block;
-  text-align: center;
-  margin: 60px;
-}
-#tit{
-  font-size: 40px;
-}
-.container-text{
-  bottom: 0;
-}
-nav{
-  border-bottom: 2px solid var(--mainColor);
-}
-.social{
-  margin-top: 80px;
-  margin-left: 10px;
-}
-.menu{
-  display: block;
-}
-.about .container-img img{
-  display: none;
-}
-.about .container-text{
-  width: 1000vw;
-}
-.skills img{
-  width: 25vw;
+  :root {
+    --mainColor: #849d05;
+    --secColor: #515610;
+    --lightColor: #f6f68d;
+    --bgColor-1: #121802;
+    --bgColor-2: #090a01;
+    --padding: 1.5rem;
+  }
+  html {
+    font-size: 13px;
+  }
+  nav ul {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--secColor);
+    top: 0;
+    left: 0;
+  }
+  nav ul.is-active {
+    display: block;
+  }
+  nav ul.no-active {
+    display: none;
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
+    margin: 60px;
+  }
+  #tit {
+    font-size: 40px;
+  }
+  .container-text {
+    bottom: 0;
+  }
+  nav {
+    border-bottom: 2px solid var(--mainColor);
+  }
+  .social {
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  .menu {
+    display: block;
+  }
+  .about .container-img img {
+    display: none;
+  }
+  .about .container-text {
+    width: 1000vw;
+  }
+  .skills img {
+    width: 25vw;
     border-radius: 0.5rem;
     margin: 0.2rem;
-}
-.skills .c-skills{
-  width: 25rem;
-}
-.up{
-  font-size: 1.7rem;
-}
   }
+  .skills .c-skills {
+    width: 25rem;
+  }
+  .up {
+    font-size: 1.7rem;
+  }
+}
