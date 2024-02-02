@@ -305,6 +305,9 @@ footer .content-footer {
   }
   .about .container-text {
     width: 1000vw;
+    display: grid;
+    grid-template-columns: 100vw;
+    margin-right: 2rem;
   }
   .skills img {
     width: 7rem;
