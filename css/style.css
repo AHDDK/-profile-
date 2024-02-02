@@ -1,9 +1,14 @@
 :root {
-  --mainColor: #059d30;
+  /* --mainColor: #059d30;
   --secColor: #105624;
   --lightColor: #8df6ab;
   --bgColor-1: #021807;
-  --bgColor-2: #010a03;
+  --bgColor-2: #010a03; */
+  --mainColor: #849d05;
+  --secColor: #515610;
+  --lightColor: #f6f68d;
+  --bgColor-1: #121802;
+  --bgColor-2: #090a01;
   --padding: 8%;
 }
 * {
@@ -189,6 +194,8 @@ h5 {
 }
 .skills img {
   width: 4rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
 }
 .cont-skillimg img {
   width: 4rem;
@@ -236,7 +243,7 @@ footer .content-footer {
 }
 
 /* media screen */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
 :root{
   --mainColor: #849d05;
   --secColor: #515610;
@@ -292,6 +299,8 @@ nav{
 }
 .skills img{
   width: 25vw;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
 }
 .skills .c-skills{
   width: 25rem;
