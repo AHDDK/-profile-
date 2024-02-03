@@ -4,11 +4,11 @@
   --lightColor: #8df6ab;
   --bgColor-1: #021807;
   --bgColor-2: #010a03; */
-  --mainColor: #849d05;
-  --secColor: #515610;
-  --lightColor: #f6f68d;
-  --bgColor-1: #121802;
-  --bgColor-2: #090a01;
+  --mainColor: #05689d;
+  --secColor: #103156;
+  --lightColor: #21cfc0;
+  --bgColor-1: #000304;
+  --bgColor-2: #010c15;
   --padding: 8%;
 }
 * {
@@ -251,11 +251,11 @@ footer .content-footer {
 /* media screen */
 @media screen and (max-width: 619px) {
   :root {
-    --mainColor: #849d05;
-    --secColor: #515610;
-    --lightColor: #f6f68d;
-    --bgColor-1: #121802;
-    --bgColor-2: #090a01;
+    --mainColor: #05689d;
+    --secColor: #103156;
+    --lightColor: #21cfc0;
+    --bgColor-1: #000304;
+    --bgColor-2: #010c15;
     --padding: 1.5rem;
   }
   html {
@@ -321,3 +321,13 @@ footer .content-footer {
     font-size: 1.7rem;
   }
 }
+/* @media screen and (max-width: 850px) and (orientation: landscape) {
+  :root {
+    --mainColor: #49059d;
+    --secColor: #561048;
+    --lightColor: #b34bda;
+    --bgColor-1: #040003;
+    --bgColor-2: #14000f;
+    --padding: 1.5rem;
+  }
+} */
