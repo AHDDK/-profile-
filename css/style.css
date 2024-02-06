@@ -212,6 +212,66 @@ h5 {
   text-transform: capitalize;
   margin: 1rem;
 }
+.skills2 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bgColor-1);
+}
+body {
+  background-color: var(--bgColor-1);
+}
+.cert {
+  display: block;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+  border-left: 0.5rem solid var(--lightColor);
+}
+.cont-card {
+  margin: 2rem;
+  margin-top: 5rem;
+  display: grid;
+  /* grid-template-columns: auto auto auto; */
+  grid-template-columns: repeat(auto-fill, 24rem);
+  justify-content: center;
+}
+.cer {
+  width: 90%;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  border: 0.2rem outset var(--mainColor);
+  border-radius: 0.5rem;
+  background-color: var(--bgColor-2);
+  transition: 0.8s;
+  cursor: pointer;
+}
+.mich {
+  display: none;
+}
+.met {
+  display: none;
+}
+.cer:hover {
+  transform: scale(1.2);
+  border: 0;
+  .mich {
+    display: inline-block;
+    width: 4rem;
+    margin-left: 15rem;
+  }
+  .met {
+    display: inline-block;
+    width: 4rem;
+    margin-left: 15rem;
+  }
+}
+.red {
+  color: red;
+}
+
 footer {
   padding: 3rem var(--padding);
   background-color: var(--bgColor-2);
