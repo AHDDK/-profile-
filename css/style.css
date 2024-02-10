@@ -83,6 +83,8 @@ nav {
   background-color: var(--bgColor-2);
   width: 100vw;
   height: auto;
+  border-radius: 0 0 3rem 3rem;
+  border-bottom: 1px solid var(--mainColor);
 }
 nav ul li {
   list-style-type: none;
@@ -353,6 +355,7 @@ footer .content-footer {
   }
   .container-text {
     bottom: 0;
+    margin-top: 11rem;
   }
   nav {
     border-bottom: 2px solid var(--mainColor);
