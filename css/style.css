@@ -73,12 +73,16 @@ html {
   color: var(--mainColor);
 }
 nav {
+  position: fixed;
   padding-top: 2.2rem;
   padding-left: var(--padding);
   padding-right: var(--padding);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--bgColor-2);
+  width: 100vw;
+  height: auto;
 }
 nav ul li {
   list-style-type: none;
@@ -130,7 +134,7 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: 60% 40%;
   text-align: right;
-  margin-top: 1rem;
+  margin-top: 8rem;
 }
 .container-text img {
   width: 60%;
