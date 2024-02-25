@@ -249,6 +249,7 @@ body {
   font-size: 1.2rem;
   text-transform: capitalize;
   border: 0.2rem outset var(--mainColor);
+  border-color: var(--mainColor) red var(--mainColor) green;
   border-radius: 0.5rem;
   background-color: var(--bgColor-2);
   transition: 0.8s;
