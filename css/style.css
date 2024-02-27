@@ -95,11 +95,21 @@ nav ul li a {
   text-decoration: none;
   color: var(--lightColor);
   text-transform: capitalize;
-  transition: 0.6s;
+  transition: 0.7s;
+  font-size: 1.5rem;
+  border-bottom: 0.2rem solid var(--mainColor);
+  border-top: 0.2rem solid var(--mainColor);
+  border-color: var(--mainColor) var(--lightColor) var(--bgColor-2) var(--secColor) ;
+  padding: 1.1rem;
+  border-radius: 2rem;
 }
 nav ul li a:hover {
-  color: var(--mainColor);
-  font-size: 1.3rem;
+  padding: 2rem;
+  color: #5deee2;
+  font-size: 2rem;
+  border: 0.07rem solid var(--lightColor);
+  border-color: #21cfc0 var(--bgColor-2) var(--secColor) var(--mainColor);
+  border-radius: 10rem;
 }
 #ahmad {
   display: block;
