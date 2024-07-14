@@ -360,6 +360,12 @@ footer .content-footer {
     bottom: 0;
     margin-top: 11rem;
   }
+  .container-text p {
+  width: 80%;
+  }
+  .container-text h1 , h5{
+   text-align: center;
+  }
   nav {
     border-bottom: 2px solid var(--mainColor);
   }
